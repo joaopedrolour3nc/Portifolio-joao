@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio João Pedro</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Pedro - Desenvolvedor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav id="menu-btn">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-        </ul>
-    </nav>
 
-    <main id="conteudo">
-        <h2>Olá, eu sou o João Pedro e tenho 22 anos</h2>
-        <h3>Sou desenvolvedor Full Stack</h3>
-        <img src="imagens/IMG_20250629_163049755_MFNR_PORTRAIT.jpg" alt="Foto de João Pedro">
-    </main>
+  <header>
+    <h1>João Pedro</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <img src="imagens/IMG_20250629_163049755_MFNR_PORTRAIT.jpg" alt="Foto de João Pedro">
+      <h1>Desenvolvedor Full-Stack</h1>
+      <p>Com 2 anos de experiência criando interfaces modernas e responsivas.</p>
+    </section>
+
+    <section class="section" id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou apaixonado por tecnologia,programação e DevOps. Gosto sempre de ajudar as pessoas e sentar na frente do computador para codar.</p>
+    </section>
+
+    <section class="section" id="projetos">
+      <h2>Projetos Recentes</h2>
+      <p>Veja alguns dos meus trabalhos mais recentes no GitHub e no meu portfólio.</p>
+      <a href="#" class="button">Ver Projetos</a>
+    </section>
+
+    <section class="section" id="contato">
+      <h2>Contato</h2>
+      <p>Quer conversar ou trabalhar comigo? Me mande uma mensagem!</p>
+      <a href="mailto:joao@email.com" class="button">Fale Comigo</a>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 João Pedro. Todos os direitos reservados.
+  </footer>
+
 </body>
 </html>
